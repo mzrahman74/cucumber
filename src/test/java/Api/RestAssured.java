@@ -15,7 +15,7 @@ class Main {
         given().
                 param("location","-33.8670522,151.1957362").
                 param("radius","500").
-                param("key","AIzaSyCmUrxwxifBF4nestpfyrqGvNTKMi2L3xM").
+                param("key","").
                 when().
                 get("/maps/api/place/nearbysearch/json").
                 then().

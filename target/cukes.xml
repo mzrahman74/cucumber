@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.417474">
-    <testcase classname="Log in Application" name="Home page default login" time="0.408772">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.494222">
+    <testcase classname="Log in Application" name="User in home page login" time="0.494222">
         <system-out>
-            <![CDATA[Given User is on NetBanking landing page....................................passed
-When User log in to application with mrahman1 and  Bbyk1945?................passed
-Then Home page will display.................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Log in Application" name="Home page default login 2" time="0.006282">
-        <system-out>
-            <![CDATA[Given User is on NetBanking landing page....................................passed
-When User log in to application with mrhaman2 and  Bbyk1965?................passed
-Then Home page will display.................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Log in Application" name="Home page default login 3" time="0.00242">
-        <system-out>
-            <![CDATA[Given User is on NetBanking landing page....................................passed
-When User log in to application with mrahman3 and  Bbyk1989?................passed
-Then Home page will display.................................................passed
+            <![CDATA[Given User is on Nissan OEM landing page....................................passed
+When User sign up with following details....................................passed
+Then Home page should displayed.............................................passed
 ]]>
         </system-out>
     </testcase>
