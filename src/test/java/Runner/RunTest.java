@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features="src/main/resources",
-        glue ="stepDefinations", tags="@Users",
+        glue ="stepDefinations", tags="@NuhaaTest",
         plugin ={ "pretty", "html:target/cucumber", "json:target/cumcmber.json", "junit:target/cukes.xml"})
 
 public class RunTest {
